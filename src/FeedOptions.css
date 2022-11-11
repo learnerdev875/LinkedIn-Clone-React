@@ -1,0 +1,11 @@
+.feed__inputOption{
+    display: flex;
+    gap:10px;
+    padding:10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.feed__inputOption:hover{
+    background-color: lightgray;
+    
+}

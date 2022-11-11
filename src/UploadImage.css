@@ -1,0 +1,16 @@
+.imageUpload{
+    padding:10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.imageUpload:hover{
+    background-color: lightgray;
+
+}
+
+.imageUpload > form > label{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    cursor: pointer;
+}

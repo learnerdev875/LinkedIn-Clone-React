@@ -1,0 +1,33 @@
+.login > img{
+    width:15%;
+    object-fit: contain;
+}
+.login,.login__form{
+    display: flex;
+    flex-direction: column
+}
+.login{
+    align-items: center;
+    padding:100px 0;
+    height:100vh
+}
+.login__form{
+    gap:10px;
+    padding:10px;
+    width:30%;
+}
+.login__form > input{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.login__form > input:nth-last-of-type(1){
+    background-color: #0077B5;
+    color:white;
+    font-size: 13px;
+}
+.registration__link{
+    text-decoration: none;
+    color:#00a0dc;
+    cursor: pointer;
+}
